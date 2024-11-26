@@ -1,0 +1,16 @@
+// Import Bootstrap SCSS
+@use 'variables' as *;
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+// Classe custom pour supprimer la flèche déroulante par défaut
+.custom-dropdown-toggle::after {
+  display: none;
+}
+
+:root {
+  $font-size: 16px;
+  div {
+    font-family: 'Poppins';
+  }
+}

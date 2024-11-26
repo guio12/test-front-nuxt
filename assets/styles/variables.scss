@@ -1,0 +1,64 @@
+$primary: #6e4aee; // Primary color
+$secondary: #27eb7f; // Secondary color
+$success: #28a745; // Success color
+$info: #17a2b8; // Info color
+$warning: #ffc107; // Warning color
+$danger: #dc3545; // Danger color
+$light: #f8f9fa; // Light color
+$dark: #343a40; // Dark color
+
+// Background colors
+$background-primary-light: lighten($primary, 40%);
+$background-primary-lighter: lighten($primary, 60%);
+$background-primary-dark: darken($primary, 20%);
+$background-primary-darker: darken($primary, 40%);
+
+$background-light: $light;
+$background-lighter: lighten($light, 10%);
+$background-dark: darken($light, 10%);
+$background-darker: darken($light, 20%);
+
+// Dropdown colors
+$dropdown-bg: $background-dark; // Dropdown background color
+$dropdown-border-color: $dark; // Dropdown border color
+$dropdown-divider-bg: $dark; // Dropdown divider background color
+$dropdown-link-color: $dark; // Dropdown link color
+$dropdown-link-hover-color: $dark; // Dropdown link hover color
+$dropdown-link-active-bg: $background-darker; // Dropdown active link background color
+$dropdown-link-active-color: $dark; // Dropdown active link background color
+
+// Modal colors
+$modal-content-bg: $background-dark; // Modal content background color
+$modal-bg: $dark;
+$modal-color: $light;
+
+// Link colors
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+
+// Button colors
+$btn-primary-bg: $primary;
+$btn-secondary-bg: $secondary;
+$btn-success-bg: $success;
+$btn-info-bg: $info;
+$btn-warning-bg: $warning;
+$btn-danger-bg: $danger;
+$btn-light-bg: $light;
+$btn-dark-bg: $dark;
+
+// Navbar colors
+$navbar-bg: $dark;
+$navbar-light-color: $light;
+$navbar-dark-color: $dark;
+
+// Form control colors
+$form-control-bg: $light;
+$form-control-border-color: $dark;
+$form-control-focus-bg: $light;
+$form-control-focus-border-color: $primary;
+
+// Custom component colors
+$card-bg: $light;
+$card-border-color: $dark;
+$card-header-bg: $primary;
+$card-footer-bg: $secondary;
